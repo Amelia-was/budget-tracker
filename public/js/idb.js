@@ -27,6 +27,8 @@ function saveRecord(record) {
     const fundsObjectStore = transaction.objectStore('new_funds');
 
     fundsObjectStore.add(record);
+
+    alert('Transaction recorded! All transactions will be saved when an internet connection is reestablished.');
 };
 
 function uploadFunds() {
