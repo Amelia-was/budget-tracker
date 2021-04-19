@@ -47,6 +47,6 @@
     "display": "standalone",
     "start_url": "./index.html",
     "description": "An app that lets you track you expenses and savings.",
-    "background_color": "#3185fc",
-    "theme_color": "#f9dc5c"
+    "background_color": "#c7e8f3",
+    "theme_color": "#36827f"
 }

@@ -1,7 +1,13 @@
 body {
   font-size: 120%;
-  font-family: Arial;
-  background: #3185fc;
+  font-family: 'Roboto', Arial, sans-serif;
+  background:#c7e8f3;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
 button, input {
@@ -9,28 +15,38 @@ button, input {
   font-family: Arial;
   padding: 8px;
   border: none;
+  margin-top: 10px;
   box-shadow: 0 5px 10px 3px rgba(0, 0, 0, 0.1);
 }
 
 button {
   text-transform: uppercase;
-  background: #f9dc5c;
+  background: #cdffc7;
 }
 
 button:hover {
-  background: #f5e7a8;
+  background: #e4fde1;
   cursor: pointer;
 }
 
 table {
-  width: 750px;
+  width: 100%;
+  background: #36827f;
+  border: none;
+  border-collapse: collapse;
 }
 
 td, th {
   border: none;
   text-align: left;
   padding: 8px;
-  margin: 0;
+}
+
+th {
+  background:rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+  font-size: 80%;
+  text-align: center;
 }
 
 tr:nth-child(even) {
@@ -42,9 +58,10 @@ tr:nth-child(even) {
 }
 
 canvas {
-  background: #fff;
-  box-shadow: 0 5px 10px 3px rgba(0, 0, 0, 0.1);
+  /* background: #fff; */
   max-width: 750px;
+  margin: 0 auto;
+  color: #FFF;
 }
 
 .wrapper {
@@ -54,9 +71,9 @@ canvas {
 
 .total {
   font-size: 150%;
-  font-weight: bold;
+  font-weight: 900;
   text-transform: uppercase;
-  color: #403f4c; 
+  color: #FFF; 
 }
 
 .form {
@@ -67,12 +84,20 @@ canvas {
 .transactions {
   text-align: left;
   max-height: 300px;
+  width: 600px;
   overflow: auto;
-  max-width: 750px;
   margin: 0 auto;
 }
 
 .budget-wrapper {
   display: flex;
-  flex-flow: row wrap;
+  align-items: center;
+  flex-flow: row wrap-reverse;
+  padding-top: 20px;
+}
+
+.transaction-info {
+  background: #36827f;
+  box-shadow: 0 5px 10px 3px rgba(0, 0, 0, 0.1);
+  padding: 20px;
 }
