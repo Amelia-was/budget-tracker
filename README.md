@@ -33,7 +33,7 @@ GitHub: [amelia-was](https://github.com/amelia-was)
 - JavaScript
 - Node.js
 - Express.js
-- MongoDB with Mongoose ODM
+- MongoDB with MongoDB Atlas
 - Deployed via Heroku
 
 ## License
