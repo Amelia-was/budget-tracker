@@ -101,3 +101,28 @@ canvas {
   box-shadow: 0 5px 10px 3px rgba(0, 0, 0, 0.1);
   padding: 20px;
 }
+
+#modal {
+  background: #FFF;
+  border-radius: 5px;
+  padding: 20px;
+  max-width: 400px;
+  height: 150px;
+  margin: 0 auto;
+  top: 30%;
+  position: relative;
+  align-items: center;
+}
+
+#modalText {
+  color: #36827f;
+  font-weight: 100;
+  font-size: 90%;
+}
+
+#mask {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+}
